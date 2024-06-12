@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_isAnagram(t *testing.T) {
+func TestIsAnagram(t *testing.T) {
 	type args struct {
 		s string
 		t string

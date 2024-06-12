@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_search(t *testing.T) {
+func TestSearch(t *testing.T) {
 	type args struct {
 		nums   []int
 		target int
