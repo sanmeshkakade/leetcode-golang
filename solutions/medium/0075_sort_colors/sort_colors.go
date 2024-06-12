@@ -14,7 +14,6 @@ Note: You are not suppose to use the library's sort function for this problem.
 
 package sortcolors
 
-
 // time complexity: O(n)
 // space complexity: O(1)
 

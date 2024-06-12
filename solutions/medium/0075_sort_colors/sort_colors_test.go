@@ -28,12 +28,12 @@ func TestSortColors(t *testing.T) {
 		},
 	}
 
-	for _, test := range testCases{
-		t.Run(test.name, func (t *testing.T) {
+	for _, test := range testCases {
+		t.Run(test.name, func(t *testing.T) {
 
 			sortColors(test.nums)
 
-			if !reflect.DeepEqual(test.nums, test.expected){
+			if !reflect.DeepEqual(test.nums, test.expected) {
 				t.Errorf("expected %v, got %v", test.nums, test.expected)
 			}
 		})
