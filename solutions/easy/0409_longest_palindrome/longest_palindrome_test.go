@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_longestPalindrome(t *testing.T) {
+func TestLongestPalindrome(t *testing.T) {
 	type args struct {
 		s string
 	}

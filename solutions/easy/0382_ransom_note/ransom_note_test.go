@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_canConstruct(t *testing.T) {
+func TestCanConstruct(t *testing.T) {
 	type args struct {
 		ransomNote string
 		magazine   string

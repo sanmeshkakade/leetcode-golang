@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_hasCycle(t *testing.T) {
+func TestHasCycle(t *testing.T) {
 	type args struct {
 		head *ListNode
 	}

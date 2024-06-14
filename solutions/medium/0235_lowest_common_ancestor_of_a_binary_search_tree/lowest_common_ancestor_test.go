@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_lowestCommonAncestor(t *testing.T) {
+func TestLowestCommonAncestor(t *testing.T) {
 	type args struct {
 		root *TreeNode
 		p    *TreeNode

@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func Test_reverseList(t *testing.T) {
+func TestReverseList(t *testing.T) {
 	type args struct {
 		head *ListNode
 	}
